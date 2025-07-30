@@ -1,9 +1,9 @@
+import os
+
+
+
 def hello():
-    print("hi")
+    print("Hello, world!")      # This line has too much indentation
+    return "Hello"
 
-
-def bye():
-    print("bye")
-
-
-print(hello())
+print(hello())                                                                    
